@@ -1,0 +1,47 @@
+﻿I. QUY TẮC ĐẶT TÊN BRANCH:
+	Update hay tạo mới các chức năng/page thì đặt tên như sau:
+		tên-page_ngay-thang-nam_tên-người-tạo
+		Ví dụ: page02-page03_01-01-14_manh-linh
+	hoặc
+		tên-chức-năng_ngay-thang-nam_tên-người-tạo
+		Ví dụ: login-admin_03-12-14_do-tung
+	
+	CHÚ Ý: ngày, tháng, năm có 2 số
+ 
+II. QUY TRÌNH COMMIT CODE LÊN SERVER:
+	1. Clone project vesion mới nhất về
+		git clone  https://gitlab.com/quy.hatoq/banana_fortran.git
+	 
+	2. Vào thư mục chứa project 
+		cd banana_fortran/
+	 
+	3. Xem danh sách các branch
+		git branch -r
+	 
+	4. Tạo branch mới tên là page02-page03_28-11-14 và copy code từ master về branch
+		git checkout -b page02-page03_28-11-14 master
+	 
+	5. Copy các file đã chỉnh sửa hay tạo mới vào các thư mục tương ứng
+
+	5. Xem lại tình trạng các file vừa được copy vào
+		git status
+	 
+	6. Đưa lần lượt các file vào branch
+		git add ten_file
+	 
+	7. Commit lên server
+		git commit -a -m 'COMMENT THÔNG TIN CẬP NHẬT'
+	 
+	8. Push file lên branch page02-page03_28-11-14 (CHÚ Ý KHÔNG LÊN MASTER)
+		git push -u origin page02-page03_28-11-14
+
+
+III. Merger code 
+	1. Chuyển về branch gốc (Master)
+		--> git checkout master
+	
+	2. Tiến hành merger code vào branch master
+		--> git merge hotfix
+
+IV. Delete Branch 
+	1. git branch -D <Tên Branch>
