@@ -1,0 +1,17 @@
+<?php $langs=array (
+  'module_get_class_success' => 'Get action successfully!',
+  'main_title' => 'Quản trị website',
+  'pageTitle' => 'Trang chủ',
+  'tab_setting' => 'setting',
+  'admins_welcome' => 'Chào mừng',
+  'admins_login_last' => 'Hoạt động cuối',
+  'P_trang' => 'trang',
+  'settings_title' => 'Danh sách bài viết',
+  'title' => 'Tiêu đề',
+  'modules' => 'Modules',
+  'all' => 'Tất cả',
+  'search' => 'Tìm kiếm',
+  'id' => 'Id',
+  'Shared' => 'Chia sẻ',
+  'Unshared' => 'Chưa chia sẻ',
+)?>

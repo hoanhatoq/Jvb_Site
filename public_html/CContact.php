@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+<title>ベトナムパートナー お問い合わせ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+</head>
+<body id="page4">
+<div class="main">
+<!-- header -->
+	<header>
+		<div class="wrapper">
+			<h1><a href="index.php" id="logo">ベトナム　パートナー</a></h1>
+						<a href="/vn/index.php" id="vn"><img src="images/vi.png" alt="Vietnamese"/>Vietnamese</a>			
+			<a href="/index.php" id="vn"><img src="images/ja.png" alt="Japanese"/>Japanese&nbsp;&nbsp;</a>			
+		</div>
+		<nav>
+			<ul id="menu">
+				<li class="alpha"><a href="index.php"><span><span>ホーム</span></span></a></li>
+				<li><a href="VComInfo.php?bt_id=ALL"><span><span>ベトナム企業</span></span> </a></li>
+				<li><a href="VBasicInfo.php"><span><span>ベトナム情報</span></span></a></li>
+				<li><a href="About.php"><span><span>会社概要</span></span></a></li>
+				<li class="omega" id="menu_active"><a href="Contacts.html"><span><span>お問い合わせ</span></span></a></li>
+			</ul>
+		</nav>
+		<div class="wrapper">
+			<div class="text">
+<!--				<span class="text1">Effective<span>business solutions</span></span>
+				<a href="#" class="button">read more</a>
+-->
+			</div>
+		</div>
+	</header>
+<!-- / header -->
+<!-- content -->
+	<section id="content">
+		<div class="wrapper">
+			<div class="pad">
+				<div class="wrapper">
+					<article class="col1"><h2>お問い合わせフォーム</h2></article>
+					<article class="col2 pad_left1"><h2>お問い合わせ先</h2></article>
+				</div>
+			</div>
+			<div class="box pad_bot1">
+				<div class="pad marg_top">
+					<article class="col1">
+						<form id="ContactForm" action="Contacts.php" method="POST">
+							<div>
+								<div class="wrapper">
+									<div class="bg"><input class="input" name="name" type="text"></div>お名前:
+								</div>
+								<div class="wrapper">
+									<div class="bg"><input class="input" name="email" type="text"></div>メール:
+								</div>
+								<div class="wrapper">
+									<div class="bg2"><textarea cols="1" name="content" rows="1" >[<?php echo $_POST['cname']; ?>]</textarea></div>内容:
+								</div>
+								<input class="button" type="submit" value="送信"></form>
+							</div>
+						</form>
+					</article>
+					<article class="col2 pad_left1">
+						<div class="wrapper">
+							<p class="cols pad_bot3">
+								<strong>
+									メール:
+								</strong>
+							</p>
+							<p class="pad_bot3">
+								<img src="../images/mail.jpg">
+
+							</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- / content -->
+<!-- footer -->
+	<footer>
+		<a rel="nofollow" href="http://vietpartner.jp/" target="_blank">ベトパートー</a>
+ 	</footer>
+<!-- / footer -->
+</div>
+</body>
+</html>

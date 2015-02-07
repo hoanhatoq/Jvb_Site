@@ -1,0 +1,73 @@
+﻿
+/*
+		 * Required 
+		*/
+.container
+{
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.slides
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slides div
+{
+  position: absolute;
+  top: 0;
+  width: 500px;
+  display: none;
+}
+
+#loopedSlider
+{
+  margin: 18px auto;
+  width: 400px;
+  position: relative;
+  clear: both;
+}
+ul.pagination
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 9px auto;
+  width: 132px;
+}
+ul.pagination li
+{
+  float: left;
+  margin: 0 5px;
+}
+ul.pagination a
+{
+  display: block;
+  width: 12px;
+  padding-top: 12px;
+  height: 0;
+  overflow: hidden;
+  background-image: url(pagination.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+ul.pagination li.active a
+{
+  background-position: 0 -12px;
+}
+a.previous
+{
+  position: absolute;
+  top: 200px;
+  left: -32px;
+}
+a.next
+{
+  position: absolute;
+  top: 200px;
+  right: -32px;
+}

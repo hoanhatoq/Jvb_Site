@@ -1,0 +1,24 @@
+wrapper_comp {width:100%;font-size:20px;overflow:hidden}
+
+table.province{
+    border-top:1px solid #429bad;
+    border-left:1px solid #429bad;
+    border-collapse:collapse;
+    border-spacing:0;
+    empty-cells:show;
+}
+.province th{
+    border-right:1px solid #429bad;
+    border-bottom:1px solid #429bad;
+    background-image:url(../img/menu_active.gif);
+    background-position:left top;
+    padding:0.3em 1em;
+    text-align:center;
+    text-decoration:none;
+}
+.province td{
+    border-right:1px solid #429bad;
+    border-bottom:1px solid #429bad;
+
+    padding:0.3em 1em;
+}
